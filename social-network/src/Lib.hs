@@ -22,4 +22,4 @@ data Message = Message
 -- / Creates a list of n users
 -- "User1, User2 ..."
 createUsers :: Int -> [User]
-createUsers n = [User ("User" ++ show i) i | i <- [1..n]] -- List comprehension to n number of users
+createUsers n = [User ("User " ++ show i) i | i <- [1..n]] -- List comprehension to n number of users
